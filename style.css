@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body , header {
+    position: relative;
+    background: linear-gradient(to right, #C6FFDD, #FBD786, #f7797d);
+    /* background: linear-gradient(to right, #00416A, #E4E5E6); */
+  }
+  
+  #cardsDiv {
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  h3 {
+    text-align: center;
+  }
+  #card {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 22rem;
+    margin: 20px;
+    box-shadow: #056AA6 0px 2px 7px 0px;
+    background-color: #FFF56D;
+    transition: all 0.4s;
+  }
+  #card:hover {
+    transform: scale(1.1);
+    box-shadow: #2caef9 0px 0px 8px 8px;
+    }
+  #card p {
+    padding: 6px;
+    position: relative;
+    color: #FE6500;
+  }
+  #subBtn {
+    width: 100px;
+    border: none;
+    background-color: #FF6600 ;
+    color: white;
+  }
+  .logo {
+    width: 150px;
+  }
+  #digmonName {
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fECB3D;
+
+  
+    align-self: center;
+  }
+  #digmonLev {
+    margin-left: 20px;
+    color: #FE6500;
+  
+    align-self: center;
+  }
+  #digmonImg {
+    align-self: center;
+    width: 100%;
+    background: transparent;
+    word-wrap;
+  }
+  
+  #levT {
+    font-weight: bold;
+    color: #FE6500;
+  }
+  #searchBtn {
+    background-color: #fe740d;
+    border: none;
+    color: white;
+  }
+  form {
+    transform: translateX(300px);
+  }
